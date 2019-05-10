@@ -40,7 +40,7 @@ Windows: No support for Windows currently
 
 * Your AWS CLI credentials should be configured  (run `aws configure` from the shell if not already done. 
 * Your AWS account should have at least one IAM Role with EC2 launch/terminate privileges ( [Create IAM Role](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html) )
-* Your AWS account should also have the ec2 service limits for the number of instances you wish to deploy [AWS Service Limites](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html)
+* Your AWS account should also have the ec2 service limits for the number of instances you wish to deploy [AWS Service Limits](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html)
 * Place your training data inside a folder in a bucket on AWS S3 (Please see examples folder to create dummy data and place it in a bucket to run the example code using instructions below)
 
 
